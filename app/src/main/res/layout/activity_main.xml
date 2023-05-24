@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_add_button2"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="4in"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:alpha="0.65"
+        android:background="#00FFFFFF"
+        android:clickable="true"
+        android:cropToPadding="false"
+        android:onClick="bu_add_edit_activity"
+        android:tooltipText="добавьте текст"
+        app:backgroundTint="#00FFFFFF"
+        app:elevation="10dp"
+        app:fabSize="auto"
+        app:hoveredFocusedTranslationZ="6dp"
+        app:maxImageSize="55dp"
+        app:pressedTranslationZ="6dp"
+        app:srcCompat="@drawable/add_icon_styletest"
+        tools:background="#00FFFFFF"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ListView
+        android:id="@+id/lv_all"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#72B16E"
+        android:dividerHeight="3dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp">
+
+
+    </ListView>
+
+</RelativeLayout>
